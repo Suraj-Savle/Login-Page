@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  position: relative;
+  background-color: rgb(245, 247, 247);
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.circle {
+  position: absolute;
+  top: 250px;
+  left: 50%;
+  transform: translatex(-50%);
+  background-color: #6534d9;
+  width: 120vw;
+  height: 200vh;
+  border-radius: 50%;
+  border: 30px solid white;
+}
+
+.contanier {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  display: flex;
+}
+
+.contanier .left {
+  background-color: white;
+  width: 400px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contanier .left .nav {
+  display: flex;
+  padding: 50px 50px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.contanier .left .nav nav:nth-child(1) {
+  color: #5a1bee;
+}
+
+.contanier .left .nav nav:nth-child(2) {
+  color: #2f2e31;
+}
+
+.contanier .left img {
+  width: 450px;
+  padding: 15px 0;
+}
+
+.contanier .right {
+  background-color: white;
+  width: 500px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+}
+
+.contanier .right .navbar {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.contanier .right .navbar nav {
+  color: gray;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.contanier .right .navbar nav a {
+  text-decoration: none;
+  color: #6534d9;
+}
+
+.contanier .right .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+}
+
+.contanier .right .title h2 {
+  color: rgb(63, 54, 54);
+  letter-spacing: 1px;
+}
+
+.contanier .right .title h5 {
+  color: silver;
+  letter-spacing: 1.5px;
+}
+
+.contanier .right .login .input-box .input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  margin: 20px 0;
+  position: relative;
+}
+
+.contanier .right .login .input-box .input i {
+  position: absolute;
+  left: 20px;
+}
+
+.contanier .right .login .input-box .input input {
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  padding: 0 50px;
+  border: none;
+}
+
+.contanier .right .login .input-box .input input:focus {
+  border: 1px solid #5a1bee;
+}
+
+.contanier .right .login-div {
+  display: flex;
+  gap: 5%;
+}
+
+.contanier .right .login-div .login {
+  background-color: #6534d9;
+  width: 150px;
+  height: 50px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+}
+
+.contanier .right .login-div .forget {
+  width: 150px;
+  height: 50px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  font-weight: 600;
+  color: gray;
+}
+
+.contanier .right .login-div .forget nav {
+  cursor: pointer;
+}
+
+.contanier .right .login-div .forget nav:hover {
+  text-decoration: underline;
+}
+
+.contanier .right .login-link {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  gap: 5%;
+}
+
+.contanier .right .login-link nav {
+  font-size: 12px;
+  color: gray;
+}
+
+.contanier .right .login-link .img-div {
+  display: flex;
+}
+
+.contanier .right .login-link .img {
+  background-color: rgb(235, 233, 233);
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.contanier .right .login-link .img a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contanier .right .login-link .img img {
+  width: 50%;
+}
